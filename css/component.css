@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+background-color:#212121;
+font-family: "Roboto", sans-serif;
+color: white;
+}
+.btn {
+    background-color: yellowgreen;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: .3s;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px silver;
+  }
